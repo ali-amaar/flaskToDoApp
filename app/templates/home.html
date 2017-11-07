@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+  <h1 class="col-sm-12 home-title">Todo list application</h1>
+  <div class="col-sm-4">
+    <div class="home-button-1"><a href="/tasks">
+      <h3 class="home-button">View all tasks</h3></a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="home-button-1"><a href="/complete">
+      <h3 class="home-button">View completed tasks</h3></a>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="home-button-1" ><a href="/create_task">
+      <h3 class="home-button">Create a task</h3></a>
+    </div>
+  </div>
+</div>
+{% endblock %}

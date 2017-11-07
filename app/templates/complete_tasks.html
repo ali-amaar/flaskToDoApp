@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+  <div class="col-sm-12">
+    <h1 class="heading">Tasks</h1>
+  </div>
+  <div class="col-sm-6 col-sm-push-3 tasklist">
+    {% for todo in complete %}
+    <table>
+      <thead>
+        <tr>
+          <th class="list-title col-sm-1">{{ todo.title }} <a class="remove" href="{{ url_for('delete_task', id=todo.id) }}">
+          <i class="fa fa-times" aria-hidden="true"></i></a></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="list-description">{{ todo.description }}</td>
+        </tr>
+      </tbody>
+    </table>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

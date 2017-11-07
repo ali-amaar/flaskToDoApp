@@ -1,0 +1,117 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+ul#menu li {
+    display: inline;
+}
+.home-button-1 {
+    width: 75%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.home-button {
+    padding: 60px 0;
+    background: linear-gradient(-45deg, #141414, #161616);
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.home-button:hover {
+    background: linear-gradient(25deg, #141414, #02112C);
+    cursor: pointer;
+    text-decoration: none;
+}
+.home-button h3 {
+    color: white;
+}
+.home-title {
+    text-align: center;
+    margin-bottom: 200px;
+    font-size: 70px;
+}
+.heading {
+    text-align: center;
+    font-size: 60px;
+}
+table {
+    margin-bottom: 30px;
+}
+.completed-icon,
+.remove {
+    margin-top: 10px;
+    float: right;
+    font-size: 40px;
+}
+.completed-icon {
+    color: #2CD100;
+}
+.remove {
+    color: red;
+}
+.list-title {
+    font-size: 40px;
+    background: #181818;
+    color: white;
+}
+.list-description {
+    font-size: 22px;
+    background: #EDEDED;
+    padding: 10px 10px 30px 10px;
+    max-width: 800px;
+    word-wrap: break-word;
+}
+.list-date{
+  background: #B1B1B1;
+  color: #181818;
+  font-size: 20px;
+  padding: 3px 10px;
+}
+table:last-child {
+    margin-bottom: 100px;
+}
+.footer {
+    position: absolute;
+    position: fixed;
+    display: table;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #141414;
+    background: #D8D8D8;
+    padding-top: 10px;
+    margin-top: 150px;
+    z-index: 150;
+}
+.table_heading {
+    font-size: 24px;
+}
+.form-control {
+    margin: 8px 0;
+    border: 3px solid #181818;
+    border-radius: 0;
+}
+form .title {
+    height: 50px;
+}
+form .description {
+    height: 150px;
+}
+form input {
+    margin: auto;
+}
+.create_button {
+    color: #FFFFFF;
+    background: linear-gradient(-45deg, #000000, #303030);
+    border-radius: 0;
+    font-size: 30px;
+}
+.create_button:hover {
+    color: #FFFFFF;
+    box-shadow: 2px 1px 2px #888888;
+}
